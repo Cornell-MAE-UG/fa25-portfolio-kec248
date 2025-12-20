@@ -149,3 +149,5 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
     style="max-width: 400px; width: 100%; border-radius: 8px;"
   >
 </p>
+
+<img src="{{ '/assets/images/enthalpy.jpg' | relative_url }}" alt="Enthalpy diagram" />
