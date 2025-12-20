@@ -119,22 +119,34 @@ Here I derive the general way of solving for these values (in this example for p
 <h2>Parallel Flow — Final Results</h2>
 
 <p>
-  <strong>Heat transfer rate:</strong> ṪQ = 1.99&nbsp;kJ/s<br>
+  <strong>Heat transfer rate:</strong> Q = 1.99&nbsp;kJ/s<br>
   <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.00129&nbsp;kJ/K
 </p>
 
 <h2>Parallel Flow (Hotter Side) — Final Results</h2>
 
 <p>
-  <strong>Heat transfer rate:</strong> ṪQ = 0.523&nbsp;kJ/s<br>
+  <strong>Heat transfer rate:</strong> Q = 0.523&nbsp;kJ/s<br>
   <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.003&nbsp;kJ/K
 </p>
 
 <h2>Counterflow — Final Results</h2>
 
 <p>
-  <strong>Heat transfer rate:</strong> ṪQ = −0.89&nbsp;kJ/s<br>
+  <strong>Heat transfer rate:</strong> Q = −0.89&nbsp;kJ/s<br>
   <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.002&nbsp;kJ/K
 </p>
 
 <h2> Analysis </h2>
+
+</p>
+For each heat exchanger configuration, a measurable amount of heat loss to the surroundings was observed. This indicates that assuming an adiabatic system, while useful for theoretical analysis, does not always produce accurate results for real-world heat exchangers. In practice, some heat is inevitably lost to the environment.
+
+The observed heat loss can be attributed in part to conduction through the metal walls of the heat exchanger and subsequent heat transfer to the surrounding air, as the exchanger is not perfectly insulated. These losses reduce the amount of thermal energy transferred between the fluid streams.
+
+Additionally, the parallel flow heat exchanger experienced greater heat loss than the counterflow. In parallel flow, the temperature difference between the hot and cold fluids decreases rapidly along the exchanger length, reducing internal heat transfer effectiveness and allowing a larger fraction of the thermal energy to escape to the surroundings. Counterflow maintains a more uniform temperature difference, which promotes more effective internal heat transfer and reduces external losses.
+
+Non-uniform flow distribution may have also contributed to experimental error. Because the water reservoir was not actively stirred while heat was added, some regions of the fluid may have been at different temperatures, causing uneven heat transfer rates within the exchanger.
+
+Although the entropy generation values were relatively small (for parallel flow, Sgen =0.00129kJ/K), the presence of entropy generation indicates that the process is not internally reversible. Temperature gradients within the exchanger and finite temperature differences during heat transfer introduce internal irreversibilities, which contribute to entropy generation.
+</p>
