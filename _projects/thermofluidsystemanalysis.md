@@ -134,3 +134,9 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
 
 <img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
 
+<h2>Parallel Flow Hotter- Heat and Entropy Generation</h2>
+
+<img src="{{ '/assets/images/parallel_hotter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+
+<h2>Counter Flow- Heat and Entropy Generation</h2>
+<img src="{{ '/assets/images/counter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
