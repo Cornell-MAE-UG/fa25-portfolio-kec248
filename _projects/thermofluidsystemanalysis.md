@@ -139,7 +139,6 @@ Here I derive the general way of solving for these values (in this example for p
 
 <h2> Analysis </h2>
 
-</p>
 For each heat exchanger configuration, a measurable amount of heat loss to the surroundings was observed. This indicates that assuming an adiabatic system, while useful for theoretical analysis, does not always produce accurate results for real-world heat exchangers. In practice, some heat is inevitably lost to the environment.
 
 The observed heat loss can be attributed in part to conduction through the metal walls of the heat exchanger and subsequent heat transfer to the surrounding air, as the exchanger is not perfectly insulated. These losses reduce the amount of thermal energy transferred between the fluid streams.
@@ -150,5 +149,4 @@ Although the entropy generation values were relatively small (for parallel flow,
 
 When comparing the parallel flow heat exchanger with the counterflow, the parallel exchanger experienced greater heat loss. In parallel flow, the temperature difference between the hot and cold fluids decreases rapidly along the exchanger length, reducing internal heat transfer effectiveness and allowing a larger fraction of the thermal energy to escape to the surroundings. Counterflow maintains a more uniform temperature difference, which promotes more effective internal heat transfer and reduces external losses. Counterflow's temepratures differences for greater than the parallel's, which indicates counterflow is the better heat exchanger configuration. 
 
-When comparing the original parallel flow with the hotter parallel flow exchanger, 
-</p>
+When comparing the original parallel flow with the hotter parallel flow exchanger, we could see there was less heat lost to the surrounding for the hotter flow. This is likely because the hotter inlet temperature increased the internal heat transfer from the hot to the colder water, so a smaller fraction of heat was lost during this transfer. 
