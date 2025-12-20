@@ -110,7 +110,7 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
 </p>
 
 
-<img src="{{ '/assets/images/diagram.jpg' | relative_url }}" alt="Enthalpy diagram" />
+<img src="{{ '/assets/images/diagram.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
 
 <h2>Assumptions</h2>
 
@@ -127,11 +127,10 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
 </ul>
 
 If we assumed adiabatic, we could have just used the temperatures to compare the heat exchange:
-<img src="{{ '/assets/images/enthalpy.jpg' | relative_url }}" alt="Enthalpy diagram" />
+<img src="{{ '/assets/images/enthalpy.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
 
 <h2>Parallel Flow- Heat and Entropy Generation</h2>
 
-<img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" />
-
+<img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
 
