@@ -18,10 +18,10 @@ These results are used to determine the overall heat transfer and the effectiven
 <h2>Parallel Flow (Control Group)</h2>
 
 <p>
-  In the parallel-flow configuration, both the hot and cold fluids enter the heat exchanger at the
-  same end and flow in the same direction. As the fluids travel together, the temperature difference
-  between them decreases rapidly, which limits the overall heat-transfer effectiveness and results
-  in smaller temperature changes.
+  In the parallel-flow arrangement, the hot and cold streams enter the heat exchanger from the same
+  end and move in the same direction. Because both fluids warm and cool together, the temperature
+  difference between them decreases rapidly along the exchanger length. This reduction in driving
+  temperature limits the amount of heat that can be transferred.
 </p>
 
 <p>
@@ -31,19 +31,19 @@ These results are used to determine the overall heat transfer and the effectiven
 
 <p>
   <strong>Observations:</strong><br>
-  During parallel flow, uneven heating was observed in the metal pump block. The 2/4 side of the pump
-  consistently became hotter than the 1/3 side associated with the cold flow. This indicates
-  nonuniform heat distribution and suggests that the heat exchanger is not perfectly insulated,
-  with some heat either lost to the surroundings or unevenly conducted through the metal block.
+  Uneven heating of the metal pump block was observed during parallel flow operation. The side
+  associated with the hot flow (ports 2/4) consistently reached higher temperatures than the
+  cold-flow side (ports 1/3). This suggests nonuniform heat conduction within the metal block and
+  indicates that some thermal energy may be lost to the surroundings due to imperfect insulation.
 </p>
 
 <h2>Counterflow Configuration</h2>
 
 <p>
-  In the counterflow configuration, the hot and cold fluids flow in opposite directions through the
-  heat exchanger. This arrangement maintains a larger temperature difference along the entire
-  length of the exchanger, resulting in significantly higher thermal effectiveness and increased
-  heat transfer.
+  For the counterflow configuration, the hot and cold fluids enter the heat exchanger from opposite
+  ends and flow in opposing directions. This arrangement maintains a larger temperature difference
+  across the entire length of the exchanger, increasing thermal effectiveness and allowing greater
+  overall heat transfer.
 </p>
 
 <p>
@@ -53,19 +53,19 @@ These results are used to determine the overall heat transfer and the effectiven
 
 <p>
   <strong>Observations:</strong><br>
-  Shortly after flow initiation, the hot reservoir temperature increased to approximately 44.5&nbsp;°C
-  before decreasing. The cold reservoir outlet temperature exceeded the hot reservoir outlet
-  temperature, while the hot stream exited at a lower temperature than the cold stream. This
-  temperature crossover is only possible in a counterflow heat exchanger and demonstrates its
-  higher effectiveness compared to parallel flow.
+  Shortly after flow was initiated, the hot reservoir temperature briefly increased to approximately
+  44.5&nbsp;°C before beginning to cool. The cold stream exited the exchanger at a higher temperature
+  than the hot stream outlet, producing a temperature crossover. This behavior is unique to
+  counterflow heat exchangers and highlights their superior thermal performance compared to
+  parallel-flow systems.
 </p>
 
-<h2>Parallel Flow with Higher Hot Inlet Temperature</h2>
+<h2>Parallel Flow with Increased Hot Inlet Temperature</h2>
 
 <p>
-  This trial repeated the parallel-flow configuration with an increased hot inlet temperature.
-  Increasing the hot inlet temperature raises the initial driving temperature difference, which
-  is expected to increase the heat-transfer rate.
+  This trial repeated the parallel-flow configuration with a higher initial hot reservoir
+  temperature. Increasing the hot inlet temperature increases the initial thermal driving force,
+  which is expected to enhance the rate of heat transfer between the streams.
 </p>
 
 <p>
@@ -75,18 +75,18 @@ These results are used to determine the overall heat transfer and the effectiven
 
 <p>
   <strong>Observations:</strong><br>
-  Increasing the initial hot reservoir temperature increased the overall temperature driving force,
-  but did not produce significant changes in heat exchanger behavior compared to the baseline
-  parallel-flow case.
+  Although the higher inlet temperature increased the temperature difference between the streams,
+  the overall exchanger behavior remained similar to the baseline parallel-flow case. No major
+  changes in performance trends were observed.
 </p>
 
 <h2>Effect of Relative Flow Rate (Reduced Hot-Side Flow Rate)</h2>
 
 <p>
-  In this experiment, the hot-side tubing was pinched to reduce the hot-side mass flow rate while
-  maintaining approximately the same cold-side flow rate. The stream with the lower mass flow
-  rate experiences a larger temperature change and becomes the limiting stream in the heat
-  transfer process.
+  In this experiment, the hot-side tubing was partially constricted to reduce the hot-side mass
+  flow rate while keeping the cold-side flow approximately constant. The stream with the lower mass
+  flow rate experiences a larger temperature change and therefore becomes the limiting side in the
+  heat transfer process.
 </p>
 
 <p>
@@ -96,8 +96,46 @@ These results are used to determine the overall heat transfer and the effectiven
 
 <p>
   <strong>Observations:</strong><br>
-  Significantly less hot fluid was present in the hot-side tubing compared to the cold side.
-  The reduced hot-side mass flow resulted in a larger temperature drop in the hot stream in order
-  to transfer sufficient thermal energy to the cold stream.
+  The reduced hot-side flow resulted in noticeably less hot fluid within the tubing compared to the
+  cold side. As a result, the hot stream underwent a larger temperature drop in order to supply
+  sufficient thermal energy to the cold stream.
+</p>
+
+<h2>Actual Analysis</h2>
+
+<p>
+  The diagram shown below was used to define the control volume and establish the governing
+  equations for the analysis.
+</p>
+
+<p style="text-align: center;">
+  <img
+    src="/fa25-portfolio-kam528-ai/assets/images/diagram.png"
+    alt="Heat exchanger diagram"
+    style="max-width: 400px; width: 100%; border-radius: 8px;"
+  >
+</p>
+
+<h2>Assumptions</h2>
+
+<ul>
+  <li>The heat exchanger operates under steady-state conditions.</li>
+  <li>Changes in kinetic energy and potential energy of the fluid streams are neglected.</li>
+  <li>No shaft work is produced or consumed, since the device functions solely as a heat exchanger.</li>
+  <li>The mass flow rate is constant, with equal inlet and outlet mass flow rates for each stream.</li>
+  <li>A mass flow rate of <strong>ṁ = 0.125 kg/s</strong> is assumed for both the hot and cold streams.</li>
+  <li>The working fluid is water, and inlet and outlet velocities are assumed to be the same.</li>
+  <li>The specific heat capacity of water is assumed constant and equal for both streams,
+      with <strong>c<sub>p</sub> = 4.18 kJ/(kg·K)</strong>.</li>
+  <li>Thermophysical properties are evaluated at average fluid temperatures.</li>
+</ul>
+
+If we assumed adiabatic, we could have just used the temperatures to compare the heat exchange:
+<p style="text-align: center;">
+  <img
+    src="/fa25-portfolio-kam528-ai/assets/images/enthalpy.png"
+    alt="Enthalpy diagram"
+    style="max-width: 400px; width: 100%; border-radius: 8px;"
+  >
 </p>
 
