@@ -2,7 +2,7 @@
 layout: project
 title: Thermo Heat Exchanger
 description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+technologies: 
 image: /assets/images/heat_exchnager_setup.jpg
 ---
 
@@ -14,6 +14,7 @@ Lab Measurements and Data: inlet and outlet temperatures for each stream and mas
 
 These results are used to determine the overall heat transfer and the effectiveness of the exchanger, and to discuss sources of error and heat loss in the setup.
 
+Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we all recorded the same observation and data (Charlotte Huber, Kathryn Moskal, and Jillian Vondell)
 
 <h2>Parallel Flow (Control Group)</h2>
 
@@ -110,7 +111,7 @@ These results are used to determine the overall heat transfer and the effectiven
 
 <p style="text-align: center;">
   <img
-    src="/fa25-portfolio-kam528-ai/assets/images/diagram.png"
+    src="/fa25-portfolio-kam528-ai/assets/images/diagram.jpg"
     alt="Heat exchanger diagram"
     style="max-width: 400px; width: 100%; border-radius: 8px;"
   >
@@ -133,9 +134,10 @@ These results are used to determine the overall heat transfer and the effectiven
 If we assumed adiabatic, we could have just used the temperatures to compare the heat exchange:
 <p style="text-align: center;">
   <img
-    src="/fa25-portfolio-kam528-ai/assets/images/enthalpy.png"
+    src="/fa25-portfolio-kam528-ai/assets/images/enthalpy.jpg"
     alt="Enthalpy diagram"
     style="max-width: 400px; width: 100%; border-radius: 8px;"
   >
 </p>
+
 
