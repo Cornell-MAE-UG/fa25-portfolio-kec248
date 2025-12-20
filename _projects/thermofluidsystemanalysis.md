@@ -110,19 +110,18 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
 <img src="{{ '/assets/images/enthalpy.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
 
-<h2>Parallel Flow- Heat and Entropy Generation</h2>
+<h2>Calculations</h2>
 
-Here I derive the general way of solving for these values, which I applied to then Parallel Flow Hotter and then Counter Flow. 
+Here I derive the general way of solving for these values (in this example for parallel flow), which I applied to then Parallel Flow Hotter and then Counter Flow. 
 
-<img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
+<img src="{{ '/assets/images/calculations.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
-<h2>Parallel Flow Hotter- Heat and Entropy Generation</h2>
+<h2>Parallel Flow — Final Results</h2>
 
-<img src="{{ '/assets/images/parallel_hotter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
-
-<h2>Counter Flow- Heat and Entropy Generation</h2>
-
-<img src="{{ '/assets/images/counter.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
+<p>
+  <strong>Heat transfer rate:</strong> ṪQ = 1.99&nbsp;kJ/s<br>
+  <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.00129&nbsp;kJ/K
+</p>
 
 <h2>Parallel Flow (Hotter Side) — Final Results</h2>
 
