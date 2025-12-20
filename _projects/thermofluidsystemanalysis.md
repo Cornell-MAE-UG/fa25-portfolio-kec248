@@ -124,4 +124,18 @@ Here I derive the general way of solving for these values, which I applied to th
 
 <img src="{{ '/assets/images/counter.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
+<h2>Parallel Flow (Hotter Side) — Final Results</h2>
+
+<p>
+  <strong>Heat transfer rate:</strong> ṪQ = 0.523&nbsp;kJ/s<br>
+  <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.003&nbsp;kJ/K
+</p>
+
+<h2>Counterflow — Final Results</h2>
+
+<p>
+  <strong>Heat transfer rate:</strong> ṪQ = −0.89&nbsp;kJ/s<br>
+  <strong>Entropy generation rate:</strong> Ṡ<sub>gen</sub> = 0.002&nbsp;kJ/K
+</p>
+
 <h2> Analysis </h2>
