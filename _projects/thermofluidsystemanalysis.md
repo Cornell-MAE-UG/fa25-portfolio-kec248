@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Thermo Heat Exchanger
-description: Advanced CAD Project
+description: Thermo Project
 technologies: 
 image: /assets/images/heat_exchnager_setup.jpg
 ---
@@ -99,7 +99,7 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   <li>Changes in kinetic energy and potential energy of the fluid streams are neglected.</li>
   <li>No shaft work is produced or consumed, since the device functions solely as a heat exchanger.</li>
   <li>The mass flow rate is constant, with equal inlet and outlet mass flow rates for each stream.</li>
-  <li>A mass flow rate of <strong>ṁ = 0.125 kg/s</strong> is assumed for both the hot and cold streams.</li>
+  <li>A mass flow rate of <strong>ṁ = 0.125 kg/s</strong> is assumed for both the hot and cold streams, due to this amazon link where we chose to use this pumps mass flow rate: https://www.amazon.com.be/-/en/Air-Pump-Up-Lift-Dehumidifiers/dp/B07D8DQMYT/ref=asc_df_B07D8DQMYT?mcid=8ea932042a543d118359cca2029b55b1&tag=begogshpadde-21&linkCode=df0&hvadid=712581418278&hvpos=&hvnetw=g&hvrand=10419331664042526324&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9219354&hvtargid=pla-519965981437&psc=1&language=en_GB&gad_source=1 </li>
   <li>The working fluid is water, and inlet and outlet velocities are assumed to be the same.</li>
   <li>The specific heat capacity of water is assumed constant and equal for both streams,
       with <strong>c<sub>p</sub> = 4.18 kJ/(kg·K)</strong>.</li>
@@ -124,4 +124,4 @@ Here I derive the general way of solving for these values, which I applied to th
 
 <img src="{{ '/assets/images/counter.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
-<h2> Analysis</h2>
+<h2> Analysis </h2>
