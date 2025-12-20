@@ -102,7 +102,7 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   sufficient thermal energy to the cold stream.
 </p>
 
-<h2>Actual Analysis</h2>
+<h2>Diagrams and Calculations</h2>
 
 <p>
   The diagram shown below was used to define the control volume and establish the governing
@@ -139,4 +139,6 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
 <img src="{{ '/assets/images/parallel_hotter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
 
 <h2>Counter Flow- Heat and Entropy Generation</h2>
-<img src="{{ '/assets/images/counter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+<img src="{{ '/assets/images/counter.heic' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+
+<h2> Analysis</h2>
