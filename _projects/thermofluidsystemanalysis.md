@@ -16,7 +16,7 @@ These results are used to determine the overall heat transfer and the effectiven
 
 Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we all recorded the same observation and data (Charlotte Huber, Kathryn Moskal, and Jillian Vondell)
 
-<h2>Parallel Flow (Control Group)</h2>
+<h2>Parallel Flow</h2>
 
 <p>
   In the parallel-flow arrangement, the hot and cold streams enter the heat exchanger from the same
@@ -36,29 +36,6 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   associated with the hot flow (ports 2/4) consistently reached higher temperatures than the
   cold-flow side (ports 1/3). This suggests nonuniform heat conduction within the metal block and
   indicates that some thermal energy may be lost to the surroundings due to imperfect insulation.
-</p>
-
-<h2>Counterflow Configuration</h2>
-
-<p>
-  For the counterflow configuration, the hot and cold fluids enter the heat exchanger from opposite
-  ends and flow in opposing directions. This arrangement maintains a larger temperature difference
-  across the entire length of the exchanger, increasing thermal effectiveness and allowing greater
-  overall heat transfer.
-</p>
-
-<p>
-  <strong>Hot reservoir:</strong> 43.1&nbsp;°C → 23.0&nbsp;°C<br>
-  <strong>Cold reservoir:</strong> 6.3&nbsp;°C → 28.1&nbsp;°C
-</p>
-
-<p>
-  <strong>Observations:</strong><br>
-  Shortly after flow was initiated, the hot reservoir temperature briefly increased to approximately
-  44.5&nbsp;°C before beginning to cool. The cold stream exited the exchanger at a higher temperature
-  than the hot stream outlet, producing a temperature crossover. This behavior is unique to
-  counterflow heat exchangers and highlights their superior thermal performance compared to
-  parallel-flow systems.
 </p>
 
 <h2>Parallel Flow with Increased Hot Inlet Temperature</h2>
@@ -81,25 +58,28 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   changes in performance trends were observed.
 </p>
 
-<h2>Effect of Relative Flow Rate (Reduced Hot-Side Flow Rate)</h2>
+
+<h2>Counterflow</h2>
 
 <p>
-  In this experiment, the hot-side tubing was partially constricted to reduce the hot-side mass
-  flow rate while keeping the cold-side flow approximately constant. The stream with the lower mass
-  flow rate experiences a larger temperature change and therefore becomes the limiting side in the
-  heat transfer process.
+  For the counterflow configuration, the hot and cold fluids enter the heat exchanger from opposite
+  ends and flow in opposing directions. This arrangement maintains a larger temperature difference
+  across the entire length of the exchanger, increasing thermal effectiveness and allowing greater
+  overall heat transfer.
 </p>
 
 <p>
-  <strong>Hot reservoir:</strong> 42.4&nbsp;°C → 26.5&nbsp;°C<br>
-  <strong>Cold reservoir:</strong> 9.6&nbsp;°C → 24.9&nbsp;°C
+  <strong>Hot reservoir:</strong> 43.1&nbsp;°C → 23.0&nbsp;°C<br>
+  <strong>Cold reservoir:</strong> 6.3&nbsp;°C → 28.1&nbsp;°C
 </p>
 
 <p>
   <strong>Observations:</strong><br>
-  The reduced hot-side flow resulted in noticeably less hot fluid within the tubing compared to the
-  cold side. As a result, the hot stream underwent a larger temperature drop in order to supply
-  sufficient thermal energy to the cold stream.
+  Shortly after flow was initiated, the hot reservoir temperature briefly increased to approximately
+  44.5&nbsp;°C before beginning to cool. The cold stream exited the exchanger at a higher temperature
+  than the hot stream outlet, producing a temperature crossover. This behavior is unique to
+  counterflow heat exchangers and highlights their superior thermal performance compared to
+  parallel-flow systems.
 </p>
 
 <h2>Diagrams and Calculations</h2>
@@ -131,6 +111,8 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
 
 
 <h2>Parallel Flow- Heat and Entropy Generation</h2>
+
+Here I derive the general way of solving for these values, which I applied to then Parallel Flow Hotter and then Counter Flow. 
 
 <img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
 
