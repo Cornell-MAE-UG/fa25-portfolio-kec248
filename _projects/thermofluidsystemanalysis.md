@@ -38,7 +38,7 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   indicates that some thermal energy may be lost to the surroundings due to imperfect insulation.
 </p>
 
-<h2>Parallel Flow with Increased Hot Inlet Temperature</h2>
+<h2>Parallel Flow (Hotter Temperatures))</h2>
 
 <p>
   This trial repeated the parallel-flow configuration with a higher initial hot reservoir
@@ -114,13 +114,14 @@ If we assumed adiabatic, we could have just used the temperatures to compare the
 
 Here I derive the general way of solving for these values, which I applied to then Parallel Flow Hotter and then Counter Flow. 
 
-<img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+<img src="{{ '/assets/images/parallel.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
 <h2>Parallel Flow Hotter- Heat and Entropy Generation</h2>
 
-<img src="{{ '/assets/images/parallel_hotter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+<img src="{{ '/assets/images/parallel_hotter.jpeg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
 <h2>Counter Flow- Heat and Entropy Generation</h2>
-<img src="{{ '/assets/images/counter.heic' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">/>
+
+<img src="{{ '/assets/images/counter.jpg' | relative_url }}" alt="Enthalpy diagram" style="max-width:600px;height:auto;">
 
 <h2> Analysis</h2>
