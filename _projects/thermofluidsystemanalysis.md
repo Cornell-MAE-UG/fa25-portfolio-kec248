@@ -144,9 +144,11 @@ For each heat exchanger configuration, a measurable amount of heat loss to the s
 
 The observed heat loss can be attributed in part to conduction through the metal walls of the heat exchanger and subsequent heat transfer to the surrounding air, as the exchanger is not perfectly insulated. These losses reduce the amount of thermal energy transferred between the fluid streams.
 
-Additionally, the parallel flow heat exchanger experienced greater heat loss than the counterflow. In parallel flow, the temperature difference between the hot and cold fluids decreases rapidly along the exchanger length, reducing internal heat transfer effectiveness and allowing a larger fraction of the thermal energy to escape to the surroundings. Counterflow maintains a more uniform temperature difference, which promotes more effective internal heat transfer and reduces external losses.
-
 Non-uniform flow distribution may have also contributed to experimental error. Because the water reservoir was not actively stirred while heat was added, some regions of the fluid may have been at different temperatures, causing uneven heat transfer rates within the exchanger.
 
 Although the entropy generation values were relatively small (for parallel flow, Sgen =0.00129kJ/K), the presence of entropy generation indicates that the process is not internally reversible. Temperature gradients within the exchanger and finite temperature differences during heat transfer introduce internal irreversibilities, which contribute to entropy generation.
+
+When comparing the parallel flow heat exchanger with the counterflow, the parallel exchanger experienced greater heat loss. In parallel flow, the temperature difference between the hot and cold fluids decreases rapidly along the exchanger length, reducing internal heat transfer effectiveness and allowing a larger fraction of the thermal energy to escape to the surroundings. Counterflow maintains a more uniform temperature difference, which promotes more effective internal heat transfer and reduces external losses. Counterflow's temepratures differences for greater than the parallel's, which indicates counterflow is the better heat exchanger configuration. 
+
+When comparing the original parallel flow with the hotter parallel flow exchanger, 
 </p>
