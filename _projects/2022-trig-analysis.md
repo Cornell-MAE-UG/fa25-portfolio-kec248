@@ -49,10 +49,6 @@ Potential long term product:
 A more complete product will lure more SLFs, and trap them better. To implement this, a dual-attraction system is used. A wintergreen-oil soaked sponge will encircle a 60hz speaker. These will be stationed at the bottom of the trap, so as to draw the SLFs down. Once inside the lure, a helical arm will rotate pushing the SLFs into the containment chamber. The product should also contain a method to remove the secured SLFs, and replace the containment chamber for further product use. The rotating arm and speaker can be powered by a small onboard solar cell.
 
 
-### Concepts B, C, etc.
-
-<Only include if you want the client to compare two directions. Keep short.>
-
 ## Key risks / unknowns
 Risks
 Maintenance: The lure requires manual maintenance to remove the chamber with bugs, or if a component fails. It could require a lot of effort to service every lure in a large vineyard.
