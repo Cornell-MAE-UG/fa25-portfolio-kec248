@@ -38,10 +38,8 @@ Adult spotted lanternflies are the biggest threat to grapevines as they ingest t
 
 ## Proposed direction(s)
 
-### Concept A (primary): <1-line name>
+### Concept A: “The Lure”
 
-Concept A: “The Lure”
-What it is:
 This is a device which can be hung from a trellis, containing a speaker emitting a 60hz “mating call”, and an area infused with an alluring wintergreen oil tincture. Once attracted, a helical wall will slowly guide SLF down into a replaceable capture chamber.
 Minimum viable product / proof-of-concept:
 A minimum viable product would contain a luring method, and a mechanism to trap attracted SLFs. In use this could consist of a plastic bottle filled with a small amount of wintergreen oil. A rubber valve, resembling that of a human heart valve, would replace the cap and act as a one-direction entrance.
@@ -58,13 +56,8 @@ Maintenance: The lure requires manual maintenance to remove the chamber with bug
 
 ## Questions for the client
 Focus on questions they can answer from lived experience.
-1. **<Question 1>**  
-   What financial investment would be available for the full-scale use of this product?
-2. **<Question 2>**  
-   How much labor would be available for maintaining this product?
-
-
-\newpage
+1. What financial investment would be available for the full-scale use of this product?
+2. How much labor would be available for maintaining this product?
 
 # Optional page 2 — References and/or one figure
 
