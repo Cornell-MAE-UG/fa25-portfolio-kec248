@@ -1,11 +1,12 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
+title: Client Outline and Pitch
+description: 
 technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+image: 
 ---
-
+<!--
+#/assets/images/function-graph.png
 
 <!--
 Compile to PDF (example):
