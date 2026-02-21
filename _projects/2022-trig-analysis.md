@@ -6,11 +6,6 @@ technologies: [MATLAB, python]
 image:
 ---
 
-# Your Project Title
-
-**Team:** No Fly Zone  
-**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
-
 <!--
 #/assets/images/function-graph.png
 
@@ -25,10 +20,9 @@ header-includes:
   - \pagenumbering{gobble}
 -->
 
-# Your Project Title
 
-**Team:** No Fly Zone
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Team:** No Fly Zone  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 ## Problem statement (most important)
 Problem Statment
