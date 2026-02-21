@@ -1,17 +1,30 @@
 ---
 layout: project
 title: Client Outline and Pitch
-description: 
+description:
 technologies: [MATLAB, python]
-image: 
+image:
 ---
+
+<!--
+/assets/images/function-graph.png
+
+Compile to PDF (example):
+pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
+-->
+
+# Your Project Title
+
+**Team:** No Fly Zone  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+
 <!--
 #/assets/images/function-graph.png
 
 <!--
 Compile to PDF (example):
   pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
--->
+
 
 ---
 fontsize: 11pt
@@ -20,7 +33,7 @@ papersize: letter
 pagestyle: empty
 header-includes:
   - \pagenumbering{gobble}
----
+-->
 
 # Your Project Title
 
