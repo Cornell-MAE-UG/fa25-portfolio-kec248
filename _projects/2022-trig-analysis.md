@@ -6,13 +6,6 @@ technologies: [MATLAB, python]
 image:
 ---
 
-<!--
-/assets/images/function-graph.png
-
-Compile to PDF (example):
-pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
--->
-
 # Your Project Title
 
 **Team:** No Fly Zone  
@@ -21,12 +14,9 @@ pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
 <!--
 #/assets/images/function-graph.png
 
-<!--
 Compile to PDF (example):
   pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
 
-
----
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
