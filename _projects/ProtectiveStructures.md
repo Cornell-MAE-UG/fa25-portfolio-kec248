@@ -8,9 +8,7 @@ image: /assets/images/racecar.jpeg
 
 <h1>Protective Structures</h1>
 
-Please download the original presentation to view: ARG26 ADR - Protective Structures
-
-[Download my Resume]({{ "/assets/images/ARG26Protective Structures.pdf" | relative_url }}) in PDF format.
+[Please download the original presentation to view]({{ "/assets/images/ARG26Protective Structures.pdf" | relative_url }}) in PDF format.
 
 
 # Protective Structures  
