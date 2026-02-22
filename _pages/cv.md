@@ -10,67 +10,77 @@ permalink: /cv/
 
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [kec248@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +5167547513
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+I am an aspiring mechanical engineering student with a strong interest and background in Automotive and Aerospace engineering. I am passionate about working in a team and being challenged, and am eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.8/4.0 | Graduation: December, 2027 (Graduating early)
 
-- **[High School Name]**  
+- **[Manhasset High School]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [June, 2024]
 
 ---
-
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Software:** Autodesk Inventor, Autodesk Fusion 360, Autodesk Vault, ANSYS  
+- **Programming:** Python  
+- **Manufacturing & Technical:** Composite fabrication and testing, Carbon fiber layup, Resin infusion, Core preparation, Vacuum bagging, Machining (Mill & Lathe), TIG Welding, 3D Printing  
+- **Other:** Microsoft Office  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Cornell Formula SAE Electric Racecar – Protective Structures & Monocoque**:  
+  *Design, manufacture, and optimization of carbon fiber protective structures for a Formula SAE electric racecar.*  
+  - Led ownership of roll hoop and front impact structure design within a 60+ member engineering team  
+  - Executed composite manufacturing processes including carbon fiber layup, resin infusion, and vacuum bagging  
+  - Conducted and analyzed composite testing campaigns to validate structural performance  
+  - Presented and defended engineering decisions during formal design reviews  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Design Patent – Educational Board Game Piece (US D1,013,048 S)**:  
+  *Designed and patented a physical learning tool to enhance classroom engagement.*  
+  - Awarded U.S. Design Patent for original board game piece design  
+  - Applied engineering design principles to create an interactive educational device  
+  - Implemented the product in classroom settings to improve student engagement and comprehension  
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Collard & Roe, Patent & Trademark Attorneys - Intern**  
+  May 2025 - August 2025  
+  - Conducted patentability searches across USPTO and international databases  
+  - Prepared technical reports summarizing claim scope, patented design features, and infringement risks  
+  - Gained exposure to intellectual property strategy and patent law procedures  
+
+- **Cornell Formula SAE Racing - Composites & Monocoque Engineer**  
+  Fall 2025 - Present  
+  - Collaborate with 60+ students to design, manufacture, and test an electric Formula SAE racecar  
+  - Coordinate with aerodynamic, ergonomic, and electrical teams to ensure seamless part integration  
+  - Lead composite manufacturing and structural validation efforts  
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- U.S. Design Patent Holder – US D1,013,048 S (2025)  
+- GPA: 3.8 – Cornell University  
+- Advanced Regents Diploma – GPA 4.5  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Vice President, Women of Aeronautics and Astronautics (WoAA) – Cornell University  
+- Mentor for first-year engineering students  
+- Aerospace and motorsport enthusiast  
 
 ---
 
 #### References
 Available upon request.
-
----
