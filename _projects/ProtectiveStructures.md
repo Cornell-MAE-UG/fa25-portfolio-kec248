@@ -6,7 +6,7 @@ technologies: Autodesk Inventor and Vault
 image: /assets/images/racecar.jpeg
 ---
 # Download Presentation
-[Download]({{ "/assets/images/ProtectiveStructuresPortfolioPresentation.pdf" | relative_url }}) the original presentation to view in PDF format (preferred).
+[Download]({{ "/assets/ProtectiveStructuresPortfolioPresentation.pdf" | relative_url }}) the original presentation to view in PDF format (preferred).
 
 
 # Protective Structures  
