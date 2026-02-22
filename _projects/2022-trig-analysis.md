@@ -63,10 +63,13 @@ Focus on questions they can answer from lived experience.
 
 ## References
 
-- <Source 1 (https://academic.oup.com/jipm/article/16/1/2/7964417?searchresult=1&login=true#521897831)>
-- <Source 2 (https://www.sciencedirect.com/science/article/pii/S0167880924004390)>
-- <Source 3 (https://academic.oup.com/jipm/article/16/1/2/7964417) >
-- <Source 4 (https://academic.oup.com/jee/article/115/6/2116/6777183) >
+Evidence of Receptivity to Vibroacoustic Stimuli in the Spotted Lanternfly Lycorma Delicatula (Hemiptera: Fulgoridae) | Journal of Economic Entomology | Oxford Academic, academic.oup.com/jee/article/115/6/2116/6777183. Accessed 22 Feb. 2026.
 
-## Figure
+Privacy Behavior in Cyberspace: An Overview of Current Research on Health Information Disclosure | Request PDF, www.researchgate.net/publication/343600295_Privacy_behavior_in_cyberspace_an_overview_of_current_research_on_health_information_disclosure. Accessed 22 Feb. 2026.
+
+Sterile Insect Technique and Incompatible Insect Technique, Emerging Alternatives to Insecticides for Adult Mosquito Control | Journal of Integrated Pest Management | Oxford Academic, academic.oup.com/jipm/article/16/1/10/8104861. Accessed 22 Feb. 2026.
+
+Sterile Insect Technique and Incompatible Insect Technique, Emerging Alternatives to Insecticides for Adult Mosquito Control | Journal of Integrated Pest Management | Oxford Academic, academic.oup.com/jipm/article/16/1/10/8104861. Accessed 22 Feb. 2026
+
+
 
