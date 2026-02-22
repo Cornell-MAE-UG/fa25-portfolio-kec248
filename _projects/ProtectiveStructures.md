@@ -8,7 +8,8 @@ image: /assets/ProtectiveStructuresPortfolioPresentation.pdf
 
 <h1>Protective Structures</h1>
 
-[Please download the original presentation to view]({{ "/assets/images/ARG26Protective Structures.pdf" | relative_url }}) in PDF format.
+# Download Presentation
+[Download]({{ "/assets/images/ARG26Protective Structures.pdf" | relative_url }}) the original presentation to view in PDF format (preferred).
 
 
 # Protective Structures  
