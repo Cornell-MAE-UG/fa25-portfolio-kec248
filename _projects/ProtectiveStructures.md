@@ -5,9 +5,6 @@ description: Cornell FSAE
 technologies: Autodesk Inventor and Vault
 image: /assets/images/racecar.jpeg
 ---
-
-<h1>Protective Structures</h1>
-
 # Download Presentation
 [Download]({{ "/assets/images/ARG26Protective Structures.pdf" | relative_url }}) the original presentation to view in PDF format (preferred).
 
