@@ -41,7 +41,6 @@ Minimum viable product / proof-of-concept: A plastic bottle filled with wintergr
 Potential long term product: A dual-attraction system of wintergreen oil and a 60hz speaker. A helical wall will rotate and guide SLFs down into a replaceable containment chamber.
 
 
-
 ## Key risks / unknowns
 Cost — Targeting every grapevine would require many lures, what does this add too and and how much is too much?
 Efficacy — Testing how well lures attract is difficult in the classroom.
