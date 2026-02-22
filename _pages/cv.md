@@ -24,9 +24,9 @@ I am an aspiring mechanical engineering student with a strong interest and backg
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
   GPA: 3.8/4.0 | Graduation: December, 2027 (Graduating early)
 
-- **[Manhasset High School]**  
+- **Manhasset High School**  
   *High School Diploma*  
-  Graduation: [June, 2024]
+  Graduation: June, 2024
 
 ---
 #### Skills
@@ -54,17 +54,17 @@ I am an aspiring mechanical engineering student with a strong interest and backg
 ---
 
 #### Work Experience
-- **Collard & Roe, Patent & Trademark Attorneys - Intern**  
-  May 2025 - August 2025  
-  - Conducted patentability searches across USPTO and international databases  
-  - Prepared technical reports summarizing claim scope, patented design features, and infringement risks  
-  - Gained exposure to intellectual property strategy and patent law procedures  
-
 - **Cornell Formula SAE Racing - Composites & Monocoque Engineer**  
   Fall 2025 - Present  
   - Collaborate with 60+ students to design, manufacture, and test an electric Formula SAE racecar  
   - Coordinate with aerodynamic, ergonomic, and electrical teams to ensure seamless part integration  
   - Lead composite manufacturing and structural validation efforts  
+
+- **Collard & Roe, Patent & Trademark Attorneys - Intern**  
+  May 2025 - August 2025  
+  - Conducted patentability searches across USPTO and international databases  
+  - Prepared technical reports summarizing claim scope, patented design features, and infringement risks  
+  - Gained exposure to intellectual property strategy and patent law procedures  
 
 ---
 
@@ -76,10 +76,9 @@ I am an aspiring mechanical engineering student with a strong interest and backg
 ---
 
 #### Extracurricular Activities
-- Vice President, Women of Aeronautics and Astronautics (WoAA) – Cornell University  
-- Mentor for first-year engineering students  
-- Aerospace and motorsport enthusiast  
-
+**Vice President, Women of Aeronautics and Astronautics (WoAA) – Cornell University**  
+-Coordinate industry talks and mentorship programs with aerospace professionals and alumni
+-Mentor first-year members and organize technical and professional training 
 ---
 
 #### References
