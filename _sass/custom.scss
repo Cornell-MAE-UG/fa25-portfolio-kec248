@@ -18,6 +18,7 @@ $text-color: #333;
   $text-color: #1e0101;
 }
 
+
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
@@ -28,7 +29,7 @@ h1 {
 }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
@@ -130,6 +131,7 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -145,23 +147,23 @@ footer {
   max-width: 100%;
 }
 
-/* 🔥 FIXED SECTION */
 .gallery-item {
-  overflow: visible;   // was hidden
+  overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 250px; 
-  /* removed max-height */
+  max-height: 300px; 
 }
 
 .gallery-item img {
   width: 100%;
-  height: auto;        // was 85%
+  height: 85%;
   display: block;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .gallery-item p {
@@ -197,3 +199,5 @@ footer {
   color: #3a3f58; 
   transform: translateX(-4px);
 }
+
+
