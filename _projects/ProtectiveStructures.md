@@ -23,7 +23,7 @@ Cornell Racing – ARG26
 
 ## Goals
 - Weight reduction  
-
+ 
 ---
 
 # Function of Anti-Intrusion Plate (AIP)
