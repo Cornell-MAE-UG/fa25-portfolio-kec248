@@ -1,7 +1,7 @@
 ---
-layout: project
-title: Client Outline and Pitch
-description:
+layout: default
+title: Milestone 1: Client Pitch
+permalink: /projects/milestone1/
 technologies: [MATLAB, python]
 image: /assets/images/SLF.jpeg
 ---

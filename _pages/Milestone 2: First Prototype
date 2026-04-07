@@ -1,6 +1,7 @@
 ---
-layout: project
-title: First Prototype
+layout: default
+title: Milestone 2: First Prototype
+permalink: /projects/milestone2/
 description: Prototype 1 of a spotted lanternfly lure and containment device
 technologies: [MATLAB, python]
 image: /assets/images/SLF.jpeg

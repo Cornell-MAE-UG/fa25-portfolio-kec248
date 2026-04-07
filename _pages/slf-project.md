@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Spotted Lanternfly Trap
+title: Open Design Project
 permalink: /projects/slf-project/
 ---
 
