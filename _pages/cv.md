@@ -3,7 +3,7 @@ layout: default
 title: Katherine Collard - CV
 permalink: /cv/
 ---
-## Curriculum Vitaeeee
+## Curriculum Vitae
 
 [Download my Resume]({{ "/assets/Resume.pdf" | relative_url }}) in PDF format.
 [Download my Transcript]({{ "/assets/Transcript.pdf" | relative_url }}) in PDF format.
