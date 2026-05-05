@@ -8,6 +8,7 @@ image: /assets/images/SLF.jpeg
 Team: No Fly Zone
 Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape
 ---
+
 ## Table of Contents
 [Client Pitch](#client-pitch)
 [Functional Prototype](#functional-prototype)
