@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Katherine Collard - Portfolio
+permalink: /projects/
 ---
 
 <div class="gallery-container">
