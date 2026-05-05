@@ -1,4 +1,5 @@
----layout: project
+---
+layout: project
 title: "No Fly Zone — SLF Trap"
 description: "A spotted lanternfly lure and trap for vineyards, developed for Cornell CALS Extension, E&J Gallo Winery, and National Grape."
 technologies: [3D Printing, Arduino, CAD]
