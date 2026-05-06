@@ -143,3 +143,51 @@ Another factor to consider is the oil we use. While using wintergreen oil is eff
 We could also potentially reduce the size to make it more cost effective and lighter, making the device more practical for large-scale deployment. Specifically, we could test a different design shape rather than a cylinder with a hood. Another solution could be to move the motor to a different section of the design, allowing for space optimization in the body of the design. By refining the geometry and minimizing unnecessary material, the system could become more compact and easier to install across vineyard trellises. Reducing weight would also decrease structural strain and simplify mounting, while lowering material usage would directly reduce production costs.
 
 Given our resources and the scope of the class, most of the functional testing has already been completed. Our device met all our success criteria, operating efficiently and allowing model SLFs to be captured. To have a stronger pitch, tests in a controlled environment with actual SLFs should be conducted to quantify attraction to our device.
+
+
+---
+
+## Figures and Bill of Materials
+
+<div class="figure-section">
+
+  <div class="figure-block">
+    <p>
+      <strong>Fig 1:</strong> Cross-sectional diagram of the lure-and-trap prototype, showing key components including the shielding, SLF entryway, Arduino-driven rotating trap disk, quarantine tubes that keep bugs away from the motor, and the removable screw-in collection chamber.
+    </p>
+    <img src="{{ '/assets/images/fig1.jpg' | relative_url }}" alt="Cross-sectional diagram of the SLF lure-and-trap prototype" class="report-figure">
+  </div>
+
+  <div class="figure-block">
+    <p>
+      <strong>Fig 2:</strong> Top-down view of the rotating gate mechanism, showing the direction of rotation that forces spotted lanternflies down into the collection tubes.
+    </p>
+    <img src="{{ '/assets/images/fig2.jpg' | relative_url }}" alt="Top-down view of rotating gate mechanism" class="report-figure">
+  </div>
+
+  <div class="figure-block">
+    <p>
+      <strong>Fig 4 & 5:</strong> Electrical schematic and Arduino writing diagram for the motor control system, controlled by a slide switch and powered by 4x AA batteries
+    </p>
+    <img src="{{ '/assets/images/fig4.jpg' | relative_url }}" alt="Arduino wiring diagram for motor control system" class="report-figure">
+    <img src="{{ '/assets/images/fig5.jpg' | relative_url }}" alt="Electrical schematic for motor control system" class="report-figure">
+  </div>
+
+  <div class="figure-block">
+    <p>
+      <strong>Fig 6:</strong> Final Prototype
+    </p>
+    <img src="{{ '/assets/images/fig6.jpg' | relative_url }}" alt="Final SLF trap prototype" class="report-figure">
+  </div>
+
+  <div class="figure-block">
+    <p>
+      <strong>Bill of Materials:</strong>
+    </p>
+    <p>
+      <a href="YOUR_SPREADSHEET_LINK_HERE" target="_blank">Link to full spreadsheet</a>
+    </p>
+    <img src="{{ '/assets/images/bom.jpg' | relative_url }}" alt="Bill of materials table" class="report-figure">
+  </div>
+
+</div>
