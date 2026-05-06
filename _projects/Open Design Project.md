@@ -175,19 +175,10 @@ Given our resources and the scope of the class, most of the functional testing h
 
   <div class="figure-block">
     <p>
-      <strong>Fig 6:</strong> Final Prototype
-    </p>
-    <img src="{{ '/assets/images/fig6.jpg' | relative_url }}" alt="Final SLF trap prototype" class="report-figure">
-  </div>
-
-  <div class="figure-block">
-    <p>
       <strong>Bill of Materials:</strong>
     </p>
-    <p>
-      <a href="YOUR_SPREADSHEET_LINK_HERE" target="_blank">Link to full spreadsheet</a>
     </p>
-    <img src="{{ '/assets/images/bom.jpg' | relative_url }}" alt="Bill of materials table" class="report-figure">
+    <img src="{{ '/assets/images/BOM.jpg' | relative_url }}" alt="Bill of materials table" class="report-figure">
   </div>
 
 </div>
