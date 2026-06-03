@@ -19,7 +19,7 @@ $text-color: #333;
 }
 
 .navbar, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
 }
 
@@ -28,7 +28,7 @@ h1 {
 }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
@@ -164,8 +164,10 @@ footer {
 
 .gallery-item p {
   margin: 13px 0;
-  font-size: 1rem;
-  line-height: 1.25;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
   color: $text-color;
   white-space: normal;
   overflow: visible;
