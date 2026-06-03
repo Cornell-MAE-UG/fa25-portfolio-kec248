@@ -6,7 +6,9 @@ permalink: /projects/
 
 <div class="gallery-container">
   <div class="project-gallery">
-    {% for project in site.projects %}
+    {% assign sorted_projects = site.projects | sort: "order" %}
+
+    {% for project in sorted_projects %}
       {% if project.show_on_home != false %}
         <div class="gallery-item">
           <a href="{{ project.url | relative_url }}">
