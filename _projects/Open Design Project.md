@@ -6,6 +6,7 @@ technologies: [3D Printing, Arduino, CAD]
 image: /assets/images/SLF.jpeg
 imagealt: Spotted lanternfly trap prototype
 show_on_home: true
+order: 2
 ---
 
 
