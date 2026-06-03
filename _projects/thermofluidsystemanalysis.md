@@ -4,6 +4,7 @@ title: Thermo Heat Exchanger
 description: Thermo Project
 technologies: 
 image: /assets/images/heat_exchnager_setup.jpg
+order: 3
 ---
 
 <h1>Heat Exchanger Setup</h1>
