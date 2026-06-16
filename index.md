@@ -11,4 +11,6 @@ title: Katherine Collard
  
 My name is Kate Collard and I am a sophomore mechanical engineer at Cornell University. 
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a>, [LinkedIn](https://www.linkedin.com/in/katecollard/).
+
+
