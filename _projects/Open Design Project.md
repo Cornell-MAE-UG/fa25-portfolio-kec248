@@ -3,8 +3,8 @@ layout: project
 title: "No Fly Zone — SLF Trap"
 description: "A spotted lanternfly lure and trap for vineyards, developed for Cornell CALS Extension, E&J Gallo Winery, and National Grape."
 technologies: [3D Printing, Arduino, CAD]
-image: /assets/images/SLF.jpeg
-imagealt: Spotted lanternfly trap prototype
+image: /assets/images/fig1.jpg
+imagealt: Cross-sectional diagram of the spotted lanternfly trap prototype
 show_on_home: true
 order: 2
 ---
@@ -25,6 +25,17 @@ order: 2
 The spotted lanternfly (*Lycorma delicatula*, SLF) is an invasive species that poses a growing threat to vineyards. SLFs feed on grapevines, reduce sap flow, contaminate grapes during harvest, and contribute to crop loss. Current removal methods are difficult to scale across large vineyards because they are labor-intensive and can interfere with normal vineyard operations.
 
 For this project, our team designed **No Fly Zone**, a trellis-mounted lure and trap intended to reduce SLF population density at the vine level without damaging grapevines. The project was developed for Cornell CALS Extension, E&J Gallo Winery, and National Grape.
+
+<div class="figure-section">
+
+  <div class="figure-block">
+    <p>
+      <strong>Spotted Lanternfly:</strong> The target invasive species for the No Fly Zone lure-and-trap system.
+    </p>
+    <img src="{{ '/assets/images/SLF.jpeg' | relative_url }}" alt="Spotted lanternfly" class="report-figure">
+  </div>
+
+</div>
 
 ---
 
