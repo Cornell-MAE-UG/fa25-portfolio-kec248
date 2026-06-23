@@ -39,7 +39,7 @@ Disclaimer: I worked in a group of 4 to analyze this heat exchanger, where we al
   indicates that some thermal energy may be lost to the surroundings due to imperfect insulation.
 </p>
 
-<h2>Parallel Flow (Hotter Temperatures))</h2>
+<h2>Parallel Flow (Hotter Temperatures)</h2>
 
 <p>
   This trial repeated the parallel-flow configuration with a higher initial hot reservoir
