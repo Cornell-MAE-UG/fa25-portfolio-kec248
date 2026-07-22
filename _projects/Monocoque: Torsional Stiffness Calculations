@@ -1,1 +1,546 @@
+# FSAE Monocoque Torsional Stiffness Target
 
+**Author:** Katherine Collard
+
+---
+
+## Objective
+
+The purpose of this analysis is to quantify the minimum torsional stiffness required for the 2027 monocoque so that structural compliance does not significantly reduce the intended suspension response.
+
+The design target is for the overall vehicle stiffness to retain **90%** of the ideal stiffness set by the suspension spring parameters.
+
+This means the monocoque and rigid suspension structures must be sufficiently stiff that their combined compliance reduces the intended suspension response by no more than 10%.
+
+---
+
+## Torsional Stiffness Definition
+
+Torsional stiffness is defined as the applied torque divided by the resulting angular deflection:
+
+$$
+K = \frac{T}{\theta}
+$$
+
+where:
+
+- $K$ is the torsional stiffness,
+- $T$ is the applied torque,
+- $\theta$ is the angular deflection.
+
+For a test in which a vertical force $F$ is applied at a lever arm $L$:
+
+$$
+T = FL
+$$
+
+If the two sides of the structure vertically displace by a combined amount $\Delta$, the twist angle may be approximated as:
+
+$$
+\theta
+=
+\tan^{-1}
+\left(
+\frac{\Delta}{L}
+\right)
+$$
+
+Therefore, the measured torsional stiffness is:
+
+$$
+K
+=
+\frac{FL}
+{
+\tan^{-1}
+\left(
+\frac{\Delta}{L}
+\right)
+}
+$$
+
+For sufficiently small angular deflections:
+
+$$
+\tan^{-1}
+\left(
+\frac{\Delta}{L}
+\right)
+\approx
+\frac{\Delta}{L}
+$$
+
+which gives:
+
+$$
+K
+\approx
+\frac{FL^2}{\Delta}
+$$
+
+This small-angle form is useful because it directly relates the measured vertical deflection to torsional stiffness.
+
+---
+
+## Equivalent Torsional Wheel Rate
+
+The physical suspension springs are linear springs, while the monocoque and suspension structural stiffnesses are expressed as torsional stiffnesses.
+
+The wheel rate must therefore be converted into an equivalent torsional stiffness.
+
+For one wheel located a distance $L$ from the vehicle centerline:
+
+$$
+K_{\mathrm{wheel,torsion}}
+\approx
+K_{\mathrm{wheel,linear}}L^2
+$$
+
+This relationship assumes consistent units and angular displacement measured in radians.
+
+The torsional wheel rate used as the normalization factor for the 2026 vehicle was selected from the suspension calculations:
+
+$$
+K_{\mathrm{wheel}}
+=
+171.92
+\ \mathrm{N\,m/deg}
+$$
+
+This represents the intended compliant behavior of the suspension springs during the one-wheel-bump loading case.
+
+---
+
+## Series Stiffness Model
+
+When compliant components act in series, their angular deflections add:
+
+$$
+\theta_{\mathrm{total}}
+=
+\theta_{\mathrm{wheel}}
++
+\theta_{\mathrm{susp}}
++
+\theta_{\mathrm{mono}}
+$$
+
+Because:
+
+$$
+\theta = \frac{T}{K}
+$$
+
+the total vehicle stiffness is:
+
+$$
+\boxed{
+\frac{1}{K_{\mathrm{vehicle}}}
+=
+\frac{1}{K_{\mathrm{wheel}}}
++
+\frac{1}{K_{\mathrm{susp}}}
++
+\frac{1}{K_{\mathrm{mono}}}
+}
+$$
+
+This equation shows that the softest element has the greatest influence on the overall vehicle stiffness.
+
+---
+
+## Separating Monocoque and Suspension Compliance
+
+The hub-to-hub torsional stiffness test includes deformation from both the monocoque and the suspension structure.
+
+Therefore:
+
+$$
+\frac{1}{K_{\mathrm{hub}}}
+=
+\frac{1}{K_{\mathrm{mono}}}
++
+\frac{1}{K_{\mathrm{susp}}}
+$$
+
+The measured values were:
+
+$$
+K_{\mathrm{hub}}
+=
+1907
+\ \mathrm{N\,m/deg}
+$$
+
+and:
+
+$$
+K_{\mathrm{mono}}
+=
+3364
+\ \mathrm{N\,m/deg}
+$$
+
+Solving for the suspension structural stiffness:
+
+$$
+\frac{1}{K_{\mathrm{susp}}}
+=
+\frac{1}{K_{\mathrm{hub}}}
+-
+\frac{1}{K_{\mathrm{mono}}}
+$$
+
+Therefore:
+
+$$
+K_{\mathrm{susp}}
+=
+\left(
+\frac{1}{K_{\mathrm{hub}}}
+-
+\frac{1}{K_{\mathrm{mono}}}
+\right)^{-1}
+$$
+
+Substituting the measured values:
+
+$$
+K_{\mathrm{susp}}
+=
+\left(
+\frac{1}{1907}
+-
+\frac{1}{3364}
+\right)^{-1}
+$$
+
+which gives:
+
+$$
+K_{\mathrm{susp}}
+\approx
+4403
+\ \mathrm{N\,m/deg}
+$$
+
+Thus, the suspension structure is somewhat stiffer than the monocoque, although both are substantially stiffer than the equivalent wheel rate.
+
+---
+
+## Normalized Stiffness Values
+
+To make the results independent of the absolute wheel rate, each stiffness is divided by the equivalent torsional wheel rate:
+
+$$
+K_i'
+=
+\frac{K_i}{K_{\mathrm{wheel}}}
+$$
+
+By definition:
+
+$$
+K_{\mathrm{wheel}}' = 1
+$$
+
+### Normalized Monocoque Stiffness
+
+The normalized monocoque stiffness is:
+
+$$
+K_{\mathrm{mono}}'
+=
+\frac{3364}{171.92}
+$$
+
+Therefore:
+
+$$
+K_{\mathrm{mono}}'
+\approx
+19.57
+$$
+
+### Normalized Suspension Structural Stiffness
+
+The normalized suspension structural stiffness is:
+
+$$
+K_{\mathrm{susp}}'
+=
+\frac{4403}{171.92}
+$$
+
+Therefore:
+
+$$
+K_{\mathrm{susp}}'
+\approx
+25.61
+$$
+
+The measured structural stiffness values were therefore:
+
+$$
+\boxed{
+K_{\mathrm{mono}}' = 19.57,
+\qquad
+K_{\mathrm{susp}}' = 25.61
+}
+$$
+
+In physical terms, the monocoque was approximately 19.6 times as stiff as the equivalent wheel rate, while the suspension structure was approximately 25.6 times as stiff.
+
+---
+
+## Determining the Monocoque Stiffness Target
+
+The ideal rigid-structure vehicle has no compliance in either the monocoque or the suspension structure.
+
+Its normalized stiffness is therefore controlled entirely by the wheel rate:
+
+$$
+K_{\mathrm{vehicle,rigid}}' = 1
+$$
+
+The target is for the actual vehicle to retain 90% of this ideal stiffness:
+
+$$
+K_{\mathrm{vehicle,target}}' = 0.90
+$$
+
+The normalized series-stiffness equation is:
+
+$$
+\frac{1}{K_{\mathrm{vehicle}}'}
+=
+\frac{1}{K_{\mathrm{wheel}}'}
++
+\frac{1}{K_{\mathrm{susp}}'}
++
+\frac{1}{K_{\mathrm{mono}}'}
+$$
+
+Substituting the target vehicle stiffness, normalized wheel rate, and measured suspension stiffness gives:
+
+$$
+\frac{1}{0.90}
+=
+1
++
+\frac{1}{25.61}
++
+\frac{1}{K_{\mathrm{mono,target}}'}
+$$
+
+Rearranging:
+
+$$
+\frac{1}{K_{\mathrm{mono,target}}'}
+=
+\frac{1}{0.90}
+-
+1
+-
+\frac{1}{25.61}
+$$
+
+Therefore:
+
+$$
+K_{\mathrm{mono,target}}'
+=
+\left(
+\frac{1}{0.90}
+-
+1
+-
+\frac{1}{25.61}
+\right)^{-1}
+$$
+
+which gives:
+
+$$
+K_{\mathrm{mono,target}}'
+\approx
+13.88
+$$
+
+Converting back to dimensional torsional stiffness:
+
+$$
+K_{\mathrm{mono,target}}
+=
+K_{\mathrm{mono,target}}'
+K_{\mathrm{wheel}}
+$$
+
+Substituting the calculated normalized target and the torsional wheel rate:
+
+$$
+K_{\mathrm{mono,target}}
+=
+13.88
+\left(
+171.92
+\ \mathrm{N\,m/deg}
+\right)
+$$
+
+Therefore:
+
+$$
+\boxed{
+K_{\mathrm{mono,target}}
+\approx
+2386
+\ \mathrm{N\,m/deg}
+}
+$$
+
+Small differences from the spreadsheet result may occur because of rounding in the displayed input values.
+
+---
+
+## Design Interpretation
+
+The calculated minimum monocoque target is approximately:
+
+$$
+K_{\mathrm{mono,target}}
+\approx
+2.39 \times 10^3
+\ \mathrm{N\,m/deg}
+$$
+
+The measured monocoque stiffness was:
+
+$$
+K_{\mathrm{mono,measured}}
+=
+3364
+\ \mathrm{N\,m/deg}
+$$
+
+The stiffness margin relative to the target is therefore:
+
+$$
+\text{Stiffness margin}
+=
+\frac{
+K_{\mathrm{mono,measured}}
+-
+K_{\mathrm{mono,target}}
+}{
+K_{\mathrm{mono,target}}
+}
+$$
+
+Substituting the values:
+
+$$
+\text{Stiffness margin}
+=
+\frac{3364-2386}{2386}
+$$
+
+Therefore:
+
+$$
+\text{Stiffness margin}
+\approx
+0.41
+$$
+
+or:
+
+$$
+\boxed{
+41\%
+}
+$$
+
+Thus, the measured monocoque was approximately 41% stiffer than the calculated minimum target.
+
+This indicates that the monocoque provides a sufficiently rigid platform for the suspension while avoiding the unnecessary mass associated with pursuing infinite structural stiffness.
+
+---
+
+## Results Summary
+
+| Parameter | Value |
+|---|---:|
+| Equivalent torsional wheel rate | $171.92\ \mathrm{N\,m/deg}$ |
+| Measured hub-to-hub stiffness | $1907\ \mathrm{N\,m/deg}$ |
+| Measured monocoque stiffness | $3364\ \mathrm{N\,m/deg}$ |
+| Calculated suspension structural stiffness | $4403\ \mathrm{N\,m/deg}$ |
+| Normalized wheel rate | $1.00$ |
+| Normalized monocoque stiffness | $19.57$ |
+| Normalized suspension stiffness | $25.61$ |
+| Target normalized vehicle stiffness | $0.90$ |
+| Required normalized monocoque stiffness | $13.88$ |
+| Required monocoque stiffness | $2386\ \mathrm{N\,m/deg}$ |
+| Measured stiffness above target | $41\%$ |
+
+---
+
+## Conclusion
+
+The analysis treats the suspension springs, suspension structure, and monocoque as torsional springs acting in series.
+
+The design objective is not for the monocoque to provide 90% of the total stiffness. Instead, the complete vehicle should retain 90% of the stiffness it would have if the monocoque and suspension structure were perfectly rigid.
+
+Using a normalized wheel rate of 1, a suspension structural stiffness of 25.61, and a target vehicle stiffness of 0.90, the required normalized monocoque stiffness was calculated as:
+
+$$
+K_{\mathrm{mono,target}}'
+\approx
+13.88
+$$
+
+This corresponds to a dimensional target of approximately:
+
+$$
+\boxed{
+K_{\mathrm{mono,target}}
+\approx
+2386
+\ \mathrm{N\,m/deg}
+}
+$$
+
+The measured monocoque stiffness of:
+
+$$
+3364
+\ \mathrm{N\,m/deg}
+$$
+
+exceeded this requirement, demonstrating that the structure was sufficiently stiff relative to the suspension system.
+
+---
+
+## References
+
+1. William B. Riley,  
+   *Design and Analysis of Vehicular Structures*,  
+   Master of Engineering Report, Cornell University,  
+   December 21, 1999, Revision 2, September 10, 2000.
+
+2. William B. Riley and Albert R. George,  
+   *Design, Analysis and Testing of a Formula SAE Car Chassis*,  
+   SAE Technical Paper 2002-01-3300, 2002.
+
+3. Cornell Racing,  
+   *ARG26 Monocoque and Hub-to-Hub Torsional Stiffness Test Data*,  
+   Cornell University, 2026.
+
+---
+
+## Author
+
+**Katherine Collard**  
+Mechanical Engineering  
+Cornell University
