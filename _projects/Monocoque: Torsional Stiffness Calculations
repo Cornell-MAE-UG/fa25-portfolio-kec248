@@ -9,7 +9,6 @@ show_on_home: true
 order: 2
 ---
 
-
 ## Objective
 
 The purpose of this analysis is to quantify the minimum torsional stiffness required for the 2027 monocoque so that structural compliance does not significantly reduce the intended suspension response.
