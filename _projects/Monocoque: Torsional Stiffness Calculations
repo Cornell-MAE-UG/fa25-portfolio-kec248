@@ -1,8 +1,13 @@
-# FSAE Monocoque Torsional Stiffness Target
-
-**Author:** Katherine Collard
-
 ---
+layout: project
+title: "FSAE Monocoque Torsional Stiffness Analysis"
+description: "A first-principles analysis used to determine the minimum torsional stiffness target for a Formula SAE composite monocoque."
+technologies: [MATLAB, LaTeX, Structural Analysis, Vehicle Dynamics]
+image: /assets/images/torsional-stiffness.jpg
+imagealt: Formula SAE monocoque torsional stiffness model and calculation results
+show_on_home: true
+order: 2
+
 
 ## Objective
 
