@@ -3,7 +3,7 @@ layout: project
 title: "FSAE Monocoque Torsional Stiffness Analysis"
 description: "A first-principles analysis used to determine the minimum torsional stiffness target for a Formula SAE composite monocoque."
 technologies: [Structural Analysis, Vehicle Dynamics, MATLAB, LaTeX]
-image: /assets/images/torsional-stiffness.jpg
+image: /assets/images/twist_test_image.jpg
 imagealt: Formula SAE monocoque torsional stiffness model and calculation results
 show_on_home: true
 order: 3
@@ -274,7 +274,7 @@ order: 3
 
   <figure class="engineering-diagram">
     <img
-      src="{{ '/assets/images/Twist_test_setup.png' | relative_url }}"
+      src="{{ '/assets/images/Twist_test_setup.jpg' | relative_url }}"
       alt="Top view of the ARG26 vehicle showing the numbered twist-test measurement locations"
       class="img-fluid"
       loading="lazy"
@@ -367,7 +367,7 @@ order: 3
 
   <figure class="engineering-diagram">
     <img
-      src="{{ '/assets/images/Monocoque_stiffness_graph.png' | relative_url }}"
+      src="{{ '/assets/images/Monocoque_stiffness_graph.jpg' | relative_url }}"
       alt="ARG26 monocoque torsional stiffness graph showing applied torque versus angular deflection"
       class="img-fluid"
       loading="lazy"
@@ -445,7 +445,7 @@ order: 3
 
   <figure class="engineering-diagram">
     <img
-      src="{{ '/assets/images/hub_to_hub_graph.png' | relative_url }}"
+      src="{{ '/assets/images/hub_to_hub_graph.jpg' | relative_url }}"
       alt="ARG26 hub-to-hub torsional stiffness graph showing torque versus hub deflection"
       class="img-fluid"
       loading="lazy"
