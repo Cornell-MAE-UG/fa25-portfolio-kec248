@@ -535,11 +535,6 @@ order: 3
   }
   \]
 
-  <p>
-    Small differences from the spreadsheet result may occur because of rounding
-    in the displayed input values.
-  </p>
-
 </section>
 
 <section class="project-section">
@@ -553,7 +548,7 @@ order: 3
   \[
   K_{\mathrm{mono,target}}
   \approx
-  2.39 \times 10^3\ \mathrm{N\,m/deg}
+  2.390 \mathrm{N\,m/deg}
   \]
 
   <p>
