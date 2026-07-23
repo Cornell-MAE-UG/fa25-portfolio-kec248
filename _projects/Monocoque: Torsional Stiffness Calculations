@@ -548,7 +548,7 @@ order: 3
   \[
   K_{\mathrm{mono,target}}
   \approx
-  2.390 \mathrm{N\,m/deg}
+  2390 \mathrm{N\,m/deg}
   \]
 
   <p>
@@ -602,15 +602,15 @@ order: 3
 
 <section class="project-section">
 
-  <h2>Analysis of Error</h2>
+  <h2>Analysis of Margin of Error</h2>
   <p>
-    This 41% difference between our targetted stiffness and our actual stiffness is because 
+    This 41% difference between our targeted stiffness and our actual stiffness is because 
     our testing rig for our test panels had greater 
     compliance than expected. This resulted in needing to increase our ply schedules in 
     our composites in order to pass the structural equivalencey rules. 
-    This lead to a heavier overall structure, and is why our stiffness was increased so much.
+    This lead to a heavier overall structure, and is why our stiffness was so much higher than expected.
     For this upcoming testing campaign, I am currently implementing and testing new rig designs,
-    with the hope of reducing our ply schedules so we aren't stregnth limited, but instead right at this stiffness target.  
+    with the hope of reducing our ply schedules so we aren't stregnth limited, but instead right at our calculated stiffness target.  
   </p>
 
 </section>
