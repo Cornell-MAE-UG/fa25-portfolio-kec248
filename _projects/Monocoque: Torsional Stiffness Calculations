@@ -3,7 +3,7 @@ layout: project
 title: "FSAE Monocoque Torsional Stiffness Analysis"
 description: "A first-principles analysis used to determine the minimum torsional stiffness target for a Formula SAE composite monocoque."
 technologies: [Structural Analysis, Vehicle Dynamics, MATLAB, LaTeX]
-image: /assets/images/twist_test_image.jpg
+image: /assets/images/twist_test_image.jpeg
 imagealt: Formula SAE monocoque torsional stiffness model and calculation results
 show_on_home: true
 order: 3
@@ -367,7 +367,7 @@ order: 3
 
   <figure class="engineering-diagram">
     <img
-      src="{{ '/assets/images/Monocoque_stiffness_graph.jpg' | relative_url }}"
+      src="{{ '/assets/images/monocoque_stiffness_graph.jpg' | relative_url }}"
       alt="ARG26 monocoque torsional stiffness graph showing applied torque versus angular deflection"
       class="img-fluid"
       loading="lazy"
