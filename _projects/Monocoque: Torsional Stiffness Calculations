@@ -256,15 +256,249 @@ order: 3
 
 <section class="project-section">
 
-  <h2>Separating Monocoque and Suspension Compliance</h2>
+  <h2>ARG26 Twist Test Data</h2>
 
   <p>
-    The hub-to-hub torsional stiffness test includes deformation from both the
-    monocoque and the suspension structure.
+    Physical twist testing was used to determine the torsional stiffness of the
+    ARG26 monocoque and the complete hub-to-hub chassis assembly. Two separate
+    test configurations were required because they measure different parts of the
+    vehicle.
   </p>
 
   <p>
-    Therefore:
+    The first configuration isolates the composite monocoque as closely as
+    possible. The second configuration applies the load through the wheel hubs,
+    so the measured deformation includes both the monocoque and the suspension
+    structure.
+  </p>
+
+  <figure class="engineering-diagram">
+    <img
+      src="{{ '/assets/images/Twist_test_setup.png' | relative_url }}"
+      alt="Top view of the ARG26 vehicle showing the numbered twist-test measurement locations"
+      class="img-fluid"
+      loading="lazy"
+    >
+
+    <figcaption>
+      ARG26 twist-test measurement locations. Points 5 and 6 are located at the
+      front suspension attachment region of the monocoque and are used to measure
+      the relative vertical displacement of the frame during the isolated
+      monocoque test.
+    </figcaption>
+  </figure>
+
+  <h3>Monocoque-Only Test</h3>
+
+  <p>
+    To determine the monocoque stiffness, the load was introduced directly into
+    the front suspension mounting region rather than through the complete
+    suspension assembly. This minimizes deformation from the control arms,
+    uprights, rockers, bearings, and other suspension components.
+  </p>
+
+  <p>
+    A known vertical force was applied through a measured lever arm, producing
+    an applied torque:
+  </p>
+
+  \[
+  T = FL
+  \]
+
+  <p>
+    where \(F\) is the applied vertical force and \(L\) is the perpendicular
+    distance from the vehicle centerline to the load application point.
+  </p>
+
+  <p>
+    The vertical movements at measurement locations 5 and 6 were recorded as
+    the load was increased. Because one side moves upward relative to the other,
+    the total relative displacement across the front of the monocoque is:
+  </p>
+
+  \[
+  \Delta_{\mathrm{mono}}
+  =
+  \left|
+  \Delta y_5-\Delta y_6
+  \right|
+  \]
+
+  <p>
+    Using the distance \(b_{\mathrm{mono}}\) between the two measurement
+    locations, the corresponding monocoque twist angle is:
+  </p>
+
+  \[
+  \theta_{\mathrm{mono}}
+  =
+  \tan^{-1}
+  \left(
+  \frac{\Delta_{\mathrm{mono}}}
+  {b_{\mathrm{mono}}}
+  \right)
+  \]
+
+  <p>
+    For the small angular deflections observed during testing:
+  </p>
+
+  \[
+  \theta_{\mathrm{mono}}
+  \approx
+  \frac{\Delta_{\mathrm{mono}}}
+  {b_{\mathrm{mono}}}
+  \]
+
+  <p>
+    Torque was then plotted against angular deflection. Since torsional stiffness
+    is defined as:
+  </p>
+
+  \[
+  K = \frac{T}{\theta}
+  \]
+
+  <p>
+    the slope of the linear torque-versus-deflection relationship represents the
+    torsional stiffness of the tested structure.
+  </p>
+
+  <figure class="engineering-diagram">
+    <img
+      src="{{ '/assets/images/Monocoque_stiffness_graph.png' | relative_url }}"
+      alt="ARG26 monocoque torsional stiffness graph showing applied torque versus angular deflection"
+      class="img-fluid"
+      loading="lazy"
+    >
+
+    <figcaption>
+      Monocoque-only test data. Each point represents an applied torque and the
+      corresponding twist angle calculated from the relative displacement measured
+      between locations 5 and 6. The slope of the fitted torque-deflection line is
+      the monocoque torsional stiffness.
+    </figcaption>
+  </figure>
+
+  <p>
+    The finalized ARG26 monocoque test result used in this analysis was:
+  </p>
+
+  \[
+  \boxed{
+  K_{\mathrm{mono}}
+  =
+  3364\ \mathrm{N\,m/deg}
+  }
+  \]
+
+  <p>
+    This value represents the stiffness of the composite frame itself, including
+    its bonded joints, inserts, local suspension mounting regions, and the global
+    carbon-fiber sandwich structure.
+  </p>
+
+  <h3>Hub-to-Hub Test</h3>
+
+  <p>
+    The hub-to-hub test was then performed with the suspension structure installed.
+    In this configuration, the torsional load is introduced at the wheel hub rather
+    than directly into the monocoque.
+  </p>
+
+  <p>
+    A known vertical force is applied at one hub while the remaining hub locations
+    provide the test constraints. The applied torque is calculated from the hub
+    force and the appropriate lateral lever arm:
+  </p>
+
+  \[
+  T_{\mathrm{hub}} = F_{\mathrm{hub}}L_{\mathrm{hub}}
+  \]
+
+  <p>
+    The relative vertical hub displacement is converted into a chassis twist angle:
+  </p>
+
+  \[
+  \theta_{\mathrm{hub}}
+  =
+  \tan^{-1}
+  \left(
+  \frac{\Delta_{\mathrm{hub}}}
+  {b_{\mathrm{hub}}}
+  \right)
+  \]
+
+  <p>
+    The resulting torque-versus-deflection plot includes deformation from both:
+  </p>
+
+  <ul>
+    <li>the composite monocoque, and</li>
+    <li>
+      the suspension structure, including links, clevises, uprights, rockers,
+      bearings, joints, and mounting interfaces.
+    </li>
+  </ul>
+
+  <figure class="engineering-diagram">
+    <img
+      src="{{ '/assets/images/hub_to_hub_graph.png' | relative_url }}"
+      alt="ARG26 hub-to-hub torsional stiffness graph showing torque versus hub deflection"
+      class="img-fluid"
+      loading="lazy"
+    >
+
+    <figcaption>
+      Hub-to-hub test data. The slope is lower than the monocoque-only stiffness
+      because the measured angular deflection now includes compliance from both the
+      monocoque and the installed suspension structure.
+    </figcaption>
+  </figure>
+
+  <p>
+    The finalized ARG26 hub-to-hub stiffness used in this analysis was:
+  </p>
+
+  \[
+  \boxed{
+  K_{\mathrm{hub}}
+  =
+  1907\ \mathrm{N\,m/deg}
+  }
+  \]
+
+  <p>
+    The hub-to-hub value is lower than the isolated monocoque value because adding
+    suspension compliance increases the total angular deflection produced by the
+    same applied torque.
+  </p>
+
+  <h3>Extracting Suspension Structural Stiffness</h3>
+
+  <p>
+    The hub-to-hub test does not directly measure the suspension structure by
+    itself. Instead, it measures the monocoque and suspension structure acting
+    together.
+  </p>
+
+  <p>
+    Because the same torque passes through both compliant structures, their
+    angular deflections add:
+  </p>
+
+  \[
+  \theta_{\mathrm{hub}}
+  =
+  \theta_{\mathrm{mono}}
+  +
+  \theta_{\mathrm{susp}}
+  \]
+
+  <p>
+    Using \(\theta=T/K\), this becomes the series-stiffness relationship:
   </p>
 
   \[
@@ -276,27 +510,7 @@ order: 3
   \]
 
   <p>
-    The measured hub-to-hub stiffness was:
-  </p>
-
-  \[
-  K_{\mathrm{hub}}
-  =
-  1907\ \mathrm{N\,m/deg}
-  \]
-
-  <p>
-    The measured monocoque stiffness was:
-  </p>
-
-  \[
-  K_{\mathrm{mono}}
-  =
-  3364\ \mathrm{N\,m/deg}
-  \]
-
-  <p>
-    Solving for the suspension structural stiffness:
+    Rearranging to isolate the suspension structural stiffness:
   </p>
 
   \[
@@ -318,7 +532,7 @@ order: 3
   \]
 
   <p>
-    Substituting the measured values:
+    Substituting the two measured ARG26 stiffness values:
   </p>
 
   \[
@@ -340,11 +554,50 @@ order: 3
   \]
 
   <p>
-    The suspension structure is therefore somewhat stiffer than the monocoque,
-    although both are substantially stiffer than the equivalent torsional wheel
-    rate.
+    Therefore, the suspension structural stiffness was not measured as a separate
+    direct test. It was extracted from the difference in compliance between the
+    monocoque-only test and the complete hub-to-hub test.
   </p>
 
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Test or calculated component</th>
+          <th>Included compliance</th>
+          <th>Torsional stiffness</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Monocoque-only test</td>
+          <td>Composite monocoque and its mounting regions</td>
+          <td>\(3364\ \mathrm{N\,m/deg}\)</td>
+        </tr>
+
+        <tr>
+          <td>Hub-to-hub test</td>
+          <td>Monocoque plus suspension structure</td>
+          <td>\(1907\ \mathrm{N\,m/deg}\)</td>
+        </tr>
+
+        <tr>
+          <td>Extracted suspension stiffness</td>
+          <td>Suspension links, joints, mounts, rockers, and uprights</td>
+          <td>\(4403\ \mathrm{N\,m/deg}\)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    These measured values are then normalized by the equivalent torsional wheel
+    rate and used in the following section to determine the minimum monocoque
+    stiffness required for the next vehicle.
+  </p>
+
+</section>
 </section>
 
 <section class="project-section">
