@@ -9,7 +9,7 @@ title: Katherine Collard
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is Kate Collard and I am a sophomore mechanical engineer at Cornell University. 
+My name is Kate Collard and I am a junior mechanical engineer at Cornell University. 
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a>, [LinkedIn](https://www.linkedin.com/in/katecollard/).
 
