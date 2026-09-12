@@ -995,6 +995,107 @@ order: 3
   </p>
 
 </section>
+<section class="project-section">
+
+  <h2>ARG27 Stiffness Reduction Target</h2>
+
+  <p>
+    The ARG26 monocoque exceeded the calculated minimum torsional stiffness
+    target by approximately 41%. This margin is defined relative to the minimum
+    required stiffness:
+  </p>
+
+  \[
+  \text{Stiffness margin}
+  =
+  \frac{
+  K_{\mathrm{mono,measured}}
+  -
+  K_{\mathrm{mono,target}}
+  }{
+  K_{\mathrm{mono,target}}
+  }
+  \]
+
+  \[
+  \text{Stiffness margin}
+  =
+  \frac{3364-2386}{2386}
+  \approx
+  0.41
+  \]
+
+  \[
+  \boxed{
+  \text{ARG26 stiffness margin}
+  \approx
+  41\%
+  }
+  \]
+
+  <p>
+    For ARG27, the objective is to reduce monocoque stiffness closer to the
+    calculated minimum requirement rather than retaining this additional margin.
+    If the ARG27 monocoque achieves the target stiffness of
+    \(2386\ \mathrm{N\,m/deg}\), the reduction relative to the measured ARG26
+    monocoque stiffness can be calculated as:
+  </p>
+
+  \[
+  \text{Stiffness reduction}
+  =
+  \frac{
+  K_{\mathrm{mono,ARG26}}
+  -
+  K_{\mathrm{mono,ARG27,target}}
+  }{
+  K_{\mathrm{mono,ARG26}}
+  }
+  \]
+
+  <p>
+    Substituting the measured ARG26 stiffness and the calculated ARG27 target:
+  </p>
+
+  \[
+  \text{Stiffness reduction}
+  =
+  \frac{
+  3364-2386
+  }{
+  3364
+  }
+  \]
+
+  \[
+  \text{Stiffness reduction}
+  =
+  \frac{978}{3364}
+  \]
+
+  \[
+  \boxed{
+  \text{Stiffness reduction}
+  \approx
+  29.1\%
+  }
+  \]
+
+  <p>
+    Therefore, an ARG27 monocoque that exactly meets the calculated target would
+    be approximately 29% less torsionally stiff than the measured ARG26
+    monocoque while still satisfying the selected vehicle-level stiffness
+    requirement.
+  </p>
+
+  <p>
+    The 41% stiffness margin and the 29% stiffness reduction describe the same
+    difference from two different reference points. The 41% value compares the
+    ARG26 stiffness to the minimum target, while the 29% value describes the
+    reduction from the ARG26 stiffness required to reach that target.
+  </p>
+
+</section>
 
 <section class="project-section">
 
