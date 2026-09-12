@@ -20,15 +20,16 @@ order: 3
   </p>
 
   <p>
-    The design target is for the overall vehicle stiffness to retain
-    <strong>90%</strong> of the ideal stiffness set by the suspension spring
-    parameters.
+    The design target is for 90% of the total vehicle compliance during a
+    one-wheel-bump event to come from the suspension springs, represented by the
+    equivalent torsional wheel rate.
   </p>
 
   <p>
-    The monocoque and suspension structures must therefore be sufficiently stiff
-    that their combined compliance reduces the intended suspension response by no
-    more than 10%.
+    This means that only 10% of the total vehicle compliance is allowed to come
+    from deformation of the monocoque and suspension structure. Equivalently,
+    the overall vehicle must retain 90% of the stiffness it would have if the
+    monocoque and suspension structure were perfectly rigid.
   </p>
 
 </section>
@@ -598,7 +599,6 @@ order: 3
   </p>
 
 </section>
-</section>
 
 <section class="project-section">
 
@@ -680,9 +680,93 @@ order: 3
   <h2>Determining the Monocoque Stiffness Target</h2>
 
   <p>
+    The design objective is for 90% of the total vehicle compliance during the
+    one-wheel-bump loading case to come from the suspension springs, represented
+    by the equivalent torsional wheel rate. The remaining 10% of vehicle compliance
+    is allowed to come from deformation of the monocoque and suspension structure.
+  </p>
+
+  <p>
+    Compliance is defined as the inverse of stiffness:
+  </p>
+
+  \[
+  C = \frac{1}{K}
+  \]
+
+  <p>
+    Therefore, the target compliance distribution can be written as:
+  </p>
+
+  \[
+  C_{\mathrm{wheel}}
+  =
+  0.90C_{\mathrm{vehicle}}
+  \]
+
+  \[
+  C_{\mathrm{structure}}
+  =
+  C_{\mathrm{mono}}
+  +
+  C_{\mathrm{susp}}
+  =
+  0.10C_{\mathrm{vehicle}}
+  \]
+
+  <p>
+    Taking the ratio of wheel compliance to combined structural compliance:
+  </p>
+
+  \[
+  \frac{C_{\mathrm{wheel}}}
+  {C_{\mathrm{structure}}}
+  =
+  \frac{0.90}{0.10}
+  =
+  9
+  \]
+
+  <p>
+    Because compliance is the inverse of stiffness:
+  </p>
+
+  \[
+  \frac{
+  1/K_{\mathrm{wheel}}
+  }{
+  1/K_{\mathrm{structure}}
+  }
+  =
+  9
+  \]
+
+  <p>
+    Therefore:
+  </p>
+
+  \[
+  \boxed{
+  K_{\mathrm{structure}}
+  =
+  9K_{\mathrm{wheel}}
+  }
+  \]
+
+  <p>
+    This means that the monocoque and suspension structure, acting together,
+    must be approximately nine times stiffer than the equivalent torsional wheel
+    rate. The required structural stiffness is then divided between the measured
+    suspension structural stiffness and the required monocoque stiffness.
+  </p>
+
+  <h3>Normalized Vehicle Target</h3>
+
+  <p>
+    The same requirement can be expressed using the normalized stiffness model.
     The ideal rigid-structure vehicle has no compliance in either the monocoque
-    or the suspension structure. Its normalized stiffness is therefore
-    controlled entirely by the wheel rate:
+    or the suspension structure. Its normalized stiffness is therefore controlled
+    entirely by the wheel rate:
   </p>
 
   \[
@@ -690,7 +774,9 @@ order: 3
   \]
 
   <p>
-    The target is for the actual vehicle to retain 90% of this ideal stiffness:
+    Requiring 90% of total vehicle compliance to occur in the suspension springs
+    is equivalent to requiring the actual vehicle to retain 90% of the stiffness
+    of this ideal rigid-structure case:
   </p>
 
   \[
@@ -712,18 +798,78 @@ order: 3
   \]
 
   <p>
-    Substituting the target vehicle stiffness, normalized wheel rate, and
-    measured suspension structural stiffness:
+    Since the wheel rate is normalized to one:
   </p>
 
   \[
+  K_{\mathrm{wheel}}' = 1
+  \]
+
+  <p>
+    the total normalized vehicle compliance at the 90% stiffness target is:
+  </p>
+
+  \[
+  \frac{1}{K_{\mathrm{vehicle,target}}'}
+  =
   \frac{1}{0.90}
   =
+  1.1111
+  \]
+
+  <p>
+    The normalized wheel compliance is:
+  </p>
+
+  \[
+  \frac{1}{K_{\mathrm{wheel}}'}
+  =
   1
+  \]
+
+  <p>
+    Therefore, the compliance available to the monocoque and suspension
+    structure combined is:
+  </p>
+
+  \[
+  1.1111 - 1
+  =
+  0.1111
+  \]
+
+  <p>
+    Thus:
+  </p>
+
+  \[
+  \frac{1}{K_{\mathrm{susp}}'}
   +
+  \frac{1}{K_{\mathrm{mono,target}}'}
+  =
+  0.1111
+  \]
+
+  <p>
+    Using the measured normalized suspension structural stiffness:
+  </p>
+
+  \[
+  K_{\mathrm{susp}}'
+  =
+  25.61
+  \]
+
+  <p>
+    gives:
+  </p>
+
+  \[
   \frac{1}{25.61}
   +
   \frac{1}{K_{\mathrm{mono,target}}'}
+  =
+  0.1111
   \]
 
   <p>
@@ -733,9 +879,7 @@ order: 3
   \[
   \frac{1}{K_{\mathrm{mono,target}}'}
   =
-  \frac{1}{0.90}
-  -
-  1
+  0.1111
   -
   \frac{1}{25.61}
   \]
@@ -744,9 +888,7 @@ order: 3
   K_{\mathrm{mono,target}}'
   =
   \left(
-  \frac{1}{0.90}
-  -
-  1
+  0.1111
   -
   \frac{1}{25.61}
   \right)^{-1}
@@ -801,11 +943,11 @@ order: 3
   \[
   K_{\mathrm{mono,target}}
   \approx
-  2390 \mathrm{N\,m/deg}
+  2386\ \mathrm{N\,m/deg}
   \]
 
   <p>
-    The measured monocoque stiffness was:
+    The measured ARG26 monocoque stiffness was:
   </p>
 
   \[
@@ -845,25 +987,49 @@ order: 3
   \]
 
   <p>
-    The measured monocoque was approximately 41% stiffer than the calculated
-    minimum target. This indicates that the monocoque provides a sufficiently rigid platform
-    for the suspension while avoiding the unnecessary mass associated with
-    pursuing infinite structural stiffness.
+    The measured ARG26 monocoque was approximately 41% stiffer than the
+    calculated minimum target. This indicates that the structure provided a
+    sufficiently rigid platform for the suspension, but also suggests that
+    additional stiffness may have been achieved at the expense of unnecessary
+    structural mass.
   </p>
 
 </section>
 
 <section class="project-section">
 
-  <h2>Analysis of Margin of Error</h2>
+  <h2>Analysis of Stiffness Margin</h2>
+
   <p>
-    This 41% difference between our targeted stiffness and our actual stiffness is because 
-    our testing rig for our test panels had greater 
-    compliance than expected. This resulted in needing to increase our ply schedules in 
-    our composites in order to pass the structural equivalencey rules. 
-    This lead to a heavier overall structure, and is why our stiffness was so much higher than expected.
-    For this upcoming testing campaign, I am currently implementing and testing new rig designs,
-    with the hope of reducing our ply schedules so we aren't stregnth limited, but instead right at our calculated stiffness target.  
+    One contributor to the 41% stiffness margin was uncertainty in the composite
+    material properties obtained from structural-equivalency testing.
+  </p>
+
+  <p>
+    The three-point-bend test fixture used to characterize the composite panels
+    contained more compliance than expected. This additional machine and fixture
+    deflection caused the test specimens to appear more compliant than they
+    actually were.
+  </p>
+
+  <p>
+    Because the measured panel stiffness was artificially reduced, additional
+    carbon-fiber plies were required in several regions to satisfy structural
+    equivalency requirements. These more conservative ply schedules increased
+    both the mass and torsional stiffness of the completed monocoque.
+  </p>
+
+  <p>
+    For the upcoming testing campaign, new fixture designs are being implemented
+    and benchmarked using materials with known elastic properties. The objective
+    is to reduce test-rig compliance and improve confidence in the measured
+    laminate properties.
+  </p>
+
+  <p>
+    More accurate material characterization should allow future ply schedules to
+    be sized closer to their actual structural requirements, reducing unnecessary
+    mass while maintaining the calculated torsional stiffness target.
   </p>
 
 </section>
@@ -952,15 +1118,29 @@ order: 3
   </p>
 
   <p>
-    The design objective is not for the monocoque to provide 90% of the total
-    stiffness. Instead, the complete vehicle should retain 90% of the stiffness
-    it would have if the monocoque and suspension structure were perfectly rigid.
+    The design objective is for 90% of total vehicle compliance to occur in the
+    suspension springs. The monocoque and suspension structure are therefore
+    permitted to contribute only the remaining 10% of total compliance.
   </p>
 
   <p>
-    Using a normalized wheel rate of 1, a normalized suspension structural
-    stiffness of 25.61, and a target normalized vehicle stiffness of 0.90, the
-    required normalized monocoque stiffness was calculated as:
+    This is equivalent to requiring the combined structural stiffness of the
+    monocoque and suspension structure to be approximately nine times greater
+    than the equivalent torsional wheel rate.
+  </p>
+
+  \[
+  \boxed{
+  K_{\mathrm{structure}}
+  =
+  9K_{\mathrm{wheel}}
+  }
+  \]
+
+  <p>
+    Using a normalized wheel rate of 1, a measured normalized suspension
+    structural stiffness of 25.61, and a target normalized vehicle stiffness of
+    0.90, the required normalized monocoque stiffness was calculated as:
   </p>
 
   \[
@@ -983,8 +1163,9 @@ order: 3
 
   <p>
     The measured monocoque stiffness of
-    \(3364\ \mathrm{N\,m/deg}\) exceeded this requirement, demonstrating that
-    the structure was sufficiently stiff relative to the suspension system.
+    \(3364\ \mathrm{N\,m/deg}\) exceeded this requirement by approximately 41%,
+    demonstrating that the ARG26 structure was sufficiently stiff relative to
+    the suspension system.
   </p>
 
 </section>
@@ -1019,7 +1200,7 @@ order: 3
 
     <li>
       Tire compliance, joint clearances, nonlinear deformation, and test-rig
-      compliance are not explicitly included.
+      compliance are not explicitly included in the stiffness model.
     </li>
 
     <li>
