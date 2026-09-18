@@ -2,6 +2,7 @@
 layout: page
 title: "Electrospray Electric Propulsion Research"
 permalink: /projects/electric-propulsion-research/
+image: /assets/images/space_image.png
 ---
 
 # Electrospray Electric Propulsion Research
@@ -30,6 +31,12 @@ I contributed to both the experimental setup and analysis of the research. My wo
 
 Material samples were exposed to an electrospray plume under vacuum conditions and then analyzed using several surface characterization techniques.
 
+The experimental setup was operated inside a vacuum chamber, where the electrospray thruster and material samples could be tested under low-pressure conditions.
+
+![Vacuum chamber experimental setup]({{ '/assets/vaccuum_chamber.jpeg' | relative_url }})
+
+*Vacuum chamber setup used for electrospray plume-surface interaction testing.*
+
 **Profilometry** was used to quantify changes in surface height and estimate net volumetric erosion or deposition.
 
 **Scanning Electron Microscopy (SEM)** was used to examine changes in surface morphology at higher resolution.
@@ -40,7 +47,7 @@ These measurements were used to compare how different spacecraft materials respo
 
 My research and experimental results were presented in the following poster:
 
-**[View Research Poster (PDF) →]({{ '/assets/electric-propulsion-poster.pdf' | relative_url }})**
+**[View Research Poster (PDF) →]({{ '/assets/electric-propulsion-research-poster.pdf' | relative_url }})**
 
 ## Skills & Tools
 
